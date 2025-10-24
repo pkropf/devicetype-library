@@ -12,22 +12,31 @@ interfaces:
     type: 2.5gbase-t
     poe_mode: pd
     poe_type: passive-48v-4pair
+    label: 1
   - name: ether2
     type: 1000base-t
+    label: 2
   - name: ether3
     type: 1000base-t
+    label: 3
   - name: ether4
     type: 1000base-t
+    label: 4
   - name: ether5
     type: 1000base-t
+    label: 5
   - name: ether6
     type: 1000base-t
+    label: 6
   - name: ether7
     type: 1000base-t
+    label: 7
   - name: ether8
     type: 1000base-t
+    label: 8
   - name: sfp-sfpplus1
     type: 10gbase-x-sfpp
+    label: SFP+
 power-ports:
   - name: power1
     type: dc-terminal
