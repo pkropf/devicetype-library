@@ -30,12 +30,10 @@ interfaces:
   - name: ether5
     label: '5'
     type: 1000base-t
-  - name: Wireless 2.4 GHz
+  - name: wlan1
     type: ieee802.11n
-  - name: Wireless 5 GHz
+  - name: wlan2
     type: ieee802.11ac
-  - name: usb
-    type: lte
 power-ports:
   - name: DC
     label: DC
